@@ -3,19 +3,10 @@ h1{
   margin: 0 auto;
   color:blue;
 }
-.separator{
-  height: 1200px;
-  width: 1%;
-  background-color: grey;
-  margin: 10px auto;
-
-
-
-}
 
 main .first{
-  position: absolute;
-  top: 500px;
+  float:right;
+  clear: both;
   display: inline-block;
   border-style: solid;
   border-radius: 10px;
@@ -25,36 +16,31 @@ main .first{
 }
 
 main .second{
-  float: right;
-  margin: auto;
+  float:left;
+  clear: both;
   display: inline-block;
   border-style: solid;
   border-radius: 10px;
-  background-color: grey;
+  background-color: blue;
   width: 400px;
   height: 350px;
 }
 main .third{
-  position: absolute;
-  top: 500px;
+  float:right;
+  clear: both;
   display: inline-block;
   border-style: solid;
   border-radius: 10px;
-  background-color: grey;
+  background-color: green;
   width: 400px;
   height: 350px;
 }
 main .fourth{
-  position: relative;
-  left: 70%;
-  top: -550px;
-  right: 0px;
-  bottom: 400px;
-  left: 65%;
+  float:left;
+  clear: both;
   display: inline-block;
   border-style: solid;
   border-radius: 10px;
-  background-color: grey;
+  background-color: purple;
   width: 400px;
   height: 350px;
-}
