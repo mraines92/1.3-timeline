@@ -4,7 +4,7 @@ h1{
   color:blue;
 }
 
-main .first{
+main .right{
   float:right;
   clear: both;
   display: inline-block;
@@ -15,7 +15,7 @@ main .first{
   height: 350px;
 }
 
-main .second{
+main .left{
   float:left;
   clear: both;
   display: inline-block;
@@ -25,7 +25,7 @@ main .second{
   width: 400px;
   height: 350px;
 }
-main .third{
+main .right{
   float:right;
   clear: both;
   display: inline-block;
@@ -35,8 +35,8 @@ main .third{
   width: 400px;
   height: 350px;
 }
-main .fourth{
-  float:left;
+main .left{
+  float: left;
   clear: both;
   display: inline-block;
   border-style: solid;
@@ -44,3 +44,49 @@ main .fourth{
   background-color: purple;
   width: 400px;
   height: 350px;
+}
+/* BREAK HERE. Here comes the second variation
+
+
+main .first .left{
+  float:left;
+  clear: both;
+  display: inline-block;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: grey;
+  width: 400px;
+  height: 350px;
+}
+
+main .second .left{
+  float:right;
+  clear: both;
+  display: inline-block;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: blue;
+  width: 400px;
+  height: 350px;
+}
+main .third .left{
+  float:left;
+  clear: both;
+  display: inline-block;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: green;
+  width: 400px;
+  height: 350px;
+}
+main .fourth .left {
+  float: right;
+  clear: both;
+  display: inline-block;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: purple;
+  width: 400px;
+  height: 350px;
+}
+*/
