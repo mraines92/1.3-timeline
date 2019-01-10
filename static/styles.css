@@ -1,9 +1,16 @@
+img{
 
+}
 h1{
-  margin: 0 auto;
+  display: inline-block;
+  padding-left: 500px;
   color:blue;
 }
+h2{
+  display: inline-block;
+  padding-left: 580px;
 
+}
 main .right{
   float:right;
   clear: both;
@@ -13,7 +20,13 @@ main .right{
   background-color: grey;
   width: 400px;
   height: 350px;
+
 }
+/*
+                      What I was trying to do was emulate the way that the code will render in the browser, but I can't figure out
+                      how to make the selectors able to change in python.
+ */
+
 
 main .left{
   float:left;
@@ -45,7 +58,7 @@ main .left{
   width: 400px;
   height: 350px;
 }
-/* BREAK HERE. Here comes the second variation
+/* BREAK HERE. the second variation
 
 
 main .first .left{
